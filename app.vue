@@ -3,7 +3,7 @@ import { useTimeoutFn } from '@vueuse/core'
 
 const fontUrl = 'https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap'
 useHead({
-  titleTemplate: (title: any) => title ? `${title} - Crystalenz Portfolio` : 'Crystalenz, Fullstack Developer',
+  titleTemplate: (title: any) => title ? `${title} - Januar Portofolio` : 'J Adhi Nugroho, Fullstack Developer',
   meta: [
     { name: 'description', content: 'Personal Website Januar Adhi Nugroho' },
     { name: 'viewport', content: 'width=device-width, initial-scale=1, maximum-scale=1' },
