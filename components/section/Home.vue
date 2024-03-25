@@ -139,7 +139,7 @@ onBeforeUnmount(() => {
         class="xl:aspect-[6/4.9] md:h-[550px] flex flex-col gap-4 md:gap-6 py-20 md:py-20 text-[2.5rem] sm:text-6xl md:text-7xl text-right 2xl:text-8xl"
       >
         <div id="home-headline1" class="font-tilt-warp max-md:leading-8 opacity-0">
-          Crstlnz
+          J Adhi Nugroho
         </div>
         <div id="home-headline2" class="font-tilt-warp flex gap-1 justify-end">
           <div class="head2 opacity-0">

@@ -5,7 +5,7 @@ const fontUrl = 'https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..4
 useHead({
   titleTemplate: (title: any) => title ? `${title} - Crystalenz Portfolio` : 'Crystalenz, Fullstack Developer',
   meta: [
-    { name: 'description', content: 'Online Portfolio of Crystalenz, Fullstack Developer' },
+    { name: 'description', content: 'Personal Website Januar Adhi Nugroho' },
     { name: 'viewport', content: 'width=device-width, initial-scale=1, maximum-scale=1' },
     { name: 'charset', content: 'utf-8' },
     { name: 'theme-color', content: '#162238' },
