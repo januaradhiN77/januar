@@ -142,7 +142,7 @@ onBeforeUnmount(() => {
               <div class="flex justify-center">
                 <div class="text-xl md:text-3xl [&>b]:text-secondary-2">
                   Hello, I'm <b>{{ name }}</b><br>
-                  I'm a <b>full-stack web developer</b>
+                  I'm a <b>web developer</b>
                 </div>
               </div>
             </div>
