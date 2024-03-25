@@ -67,11 +67,11 @@ const multiViewerUrl = ref('https://dc.crstlnz.my.id/multi?mockup=1')
               </div>
             </div>
             <div class="mt-8 md:mt-10 xl:mt-14 relative flex overflow-visible h-[900px] transition-all duration-[800ms] ease-[--transition-bounce] group-focus-visible:translate-y-5 group-hover:translate-y-5">
-              <div class="absolute top-0 max-xl:left-1/2 left-0 max-xl:-translate-x-1/2 aspect-[9/19.5] 2xl:px-10 min-h-[550px]">
-                <NuxtImg sizes="300px md:500px 2xl:600px" densities="1x" src="/img/mockup/phone_oshi_sorter_2.png" class="object-cover" />
-              </div>
-            </div>
-          </div>
+                              <div class="absolute top-0 max-xl:left-1/2 left-0 max-xl:-translate-x-1/2 aspect-[9/19.5] 2xl:px-10 min-h-[550px]">
+                                      <img sizes="300px md:500px 2xl:600px" densities="1x" src="https://devopsapps.netlify.app/images/cartoonplus_ssan.jpg" class="object-cover" />
+                              </div>
+                      </div>
+                      </div>
         </NuxtLink>
       </div>
       <div class="mx-3 md:mx-5 xl:mx-8 flex flex-col gap-10 xl:gap-28 xl:grid xl:grid-cols-5">
@@ -98,7 +98,7 @@ const multiViewerUrl = ref('https://dc.crstlnz.my.id/multi?mockup=1')
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink :to="multiViewerUrl" target="_blank" class="relative hidden-focus focus-visible:!ring-4 text-center rounded-[4rem] col-span-3 group cursor-pointer hover:-translate-y-3 focus-visible:-translate-y-3 transition-transform duration-500 ease-[--transition-bounce] select-none">
+        <NuxtLink to="https://xti2manusa.vercel.app" target="_blank" class="relative hidden-focus focus-visible:!ring-4 text-center rounded-[4rem] col-span-3 group cursor-pointer hover:-translate-y-3 focus-visible:-translate-y-3 transition-transform duration-500 ease-[--transition-bounce] select-none">
           <NuxtImg
             src="/img/mockup/Doodle%20-%20Action.png"
             alt="Clapperboard Doodle"
@@ -120,12 +120,12 @@ const multiViewerUrl = ref('https://dc.crstlnz.my.id/multi?mockup=1')
                 Kelas XTI 2
               </div>
             </div>
-            <div class="mt-8 md:mt-10 xl:mt-14 xl:mx-8 relative overflow-visible h-[900px] transition-all duration-[800ms] ease-[--transition-bounce] group-focus-visible:translate-y-5 group-hover:translate-y-5">
-              <div class="absolute top-0 left-0 w-[600px] md:w-[900px] xl:w-[1300px]">
-                <NuxtImg src="/img/mockup/multi_viewer.png" sizes="600px md:900px 2xl:1300px" densities="1x" class="object-cover" />
-              </div>
-            </div>
-          </div>
+            <div class="mt-8 md:mt-10 xl:mt-14 relative flex overflow-visible h-[900px] transition-all duration-[800ms] ease-[--transition-bounce] group-focus-visible:translate-y-5 group-hover:translate-y-5">
+                              <div class="absolute top-0 max-xl:left-1/2 left-0 max-xl:-translate-x-1/2 aspect-[9/19.5] 2xl:px-10 min-h-[550px]">
+                                      <img sizes="300px md:500px 2xl:600px" densities="1x" src="https://devopsapps.netlify.app/images/xti2manusa.jpg" class="object-cover" />
+                              </div>
+                      </div>
+                      </div>
         </NuxtLink>
       </div>
     </div>
