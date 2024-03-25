@@ -43,9 +43,9 @@ const multiViewerUrl = ref('https://dc.crstlnz.my.id/multi?mockup=1')
                 Wots48
               </div>
             </div>
-            <div class="mt-8 md:mt-10 xl:mt-14 xl:mx-16 relative overflow-visible h-[900px] transition-all duration-[800ms] ease-[--transition-bounce] group-focus-visible:translate-y-5 group-hover:translate-y-5">
-              <div class="absolute top-0 left-0 w-[600px] md:w-[900px] 2xl:w-[1300px]">
-                <img sizes="600px md:900px 2xl:1300px" densities="1x" src="https://devopsapps.netlify.app/images/wots48_ssan.jpg" class="object-cover" />
+            <div class="mt-8 md:mt-10 xl:mt-14 relative flex overflow-visible h-[900px] transition-all duration-[800ms] ease-[--transition-bounce] group-focus-visible:translate-y-5 group-hover:translate-y-5">
+              <div class="absolute top-0 max-xl:left-1/2 left-0 max-xl:-translate-x-1/2 aspect-[9/19.5] 2xl:px-10 min-h-[550px]">
+                <img sizes="300px md:500px 2xl:600px" densities="1x" src="https://devopsapps.netlify.app/images/wots48_ssan.jpg" class="object-cover" />
               </div>
             </div>
           </div>
