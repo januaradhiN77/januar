@@ -17,14 +17,13 @@ const multiViewerUrl = ref('https://dc.crstlnz.my.id/multi?mockup=1')
       <span class="font-simplify">My Projects</span>
     </div>
     <div class="text-slate-400 text-lg md:text-2xl font-semibold mb-6 md:mb-10 text-center">
-     Project iseng doang isinya
+      Here are some examples of my work
     </div>
     <div class="space-y-10 xl:space-y-28 items-center justify-center mt-10 w-full xl:px-14">
       <div class="mx-3 md:mx-5 xl:mx-8 flex flex-col gap-10 xl:gap-28 xl:grid xl:grid-cols-5">
-        <NuxtLink to="https://devopsapps.netlify.app" class="relative hidden-focus focus-visible:!ring-4 text-center rounded-[4rem] col-span-3 group cursor-pointer hover:-translate-y-3 focus-visible:-translate-y-3 transition-transform duration-500 ease-[--transition-bounce] select-none">
-          <NuxtImg
-            src="/img/mockup/Doodle%20-%20Floppy%20Disk.png"
-            alt="Floppy Doodle"
+        <NuxtLink to="/jkt48log" class="relative hidden-focus focus-visible:!ring-4 text-center rounded-[4rem] col-span-3 group cursor-pointer hover:-translate-y-3 focus-visible:-translate-y-3 transition-transform duration-500 ease-[--transition-bounce] select-none">
+          <img
+            src="https://devopsapps.netlify.app/images/wots48.jpg"
             sizes="144px"
             class="max-[1800px]:hidden absolute top-[40%] group-hover:-translate-y-4 group-focus-visible:-translate-y-4 z-10 h-36 -left-12 rotate-12 transition-[transform,opacity] opacity-0 group-hover:opacity-100 group-hover:visible group-focus-visible:opacity-100 duration-[500ms]"
           />
@@ -50,7 +49,7 @@ const multiViewerUrl = ref('https://dc.crstlnz.my.id/multi?mockup=1')
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink :to="https://devopsapps.netlify.app" target="_blank" class="relative hidden-focus focus-visible:!ring-4 text-center rounded-[4rem] col-span-1 xl:col-span-2 group cursor-pointer hover:-translate-y-3 focus-visible:-translate-y-3 transition-transform duration-500 ease-[--transition-bounce] select-none">
+        <NuxtLink :to="gameUrl" target="_blank" class="relative hidden-focus focus-visible:!ring-4 text-center rounded-[4rem] col-span-1 xl:col-span-2 group cursor-pointer hover:-translate-y-3 focus-visible:-translate-y-3 transition-transform duration-500 ease-[--transition-bounce] select-none">
           <NuxtImg
             src="/img/mockup/Doodle%20-%20Gamepad.png"
             alt="Gamepad Doodle"
@@ -60,10 +59,10 @@ const multiViewerUrl = ref('https://dc.crstlnz.my.id/multi?mockup=1')
           <div class="bg-navy-2 ring-4 ring-white/20 py-10 px-12 md:px-16 md:py-12 max-h-[450px] sm:max-h-[600px] xl:max-h-[550px] 2xl:max-h-[680px] shadow-md ring-slate-700 transition-all duration-500 ease-[--transition-bounce] rounded-[3.5rem] xl:rounded-[4rem] relative overflow-hidden">
             <div class="flex flex-col gap-3 items-end">
               <div class="font-semibold text-lg xl:text-xl opacity-70">
-                Aplikasi
+                Game
               </div>
               <div class="font-simplify text-3xl xl:text-5xl">
-                Cartoon+
+                Sorter
               </div>
             </div>
             <div class="mt-8 md:mt-10 xl:mt-14 relative flex overflow-visible h-[900px] transition-all duration-[800ms] ease-[--transition-bounce] group-focus-visible:translate-y-5 group-hover:translate-y-5">
@@ -85,10 +84,10 @@ const multiViewerUrl = ref('https://dc.crstlnz.my.id/multi?mockup=1')
           <div class="bg-navy-2 ring-4 ring-white/20 py-10 px-12 md:px-16 md:py-12 max-h-[450px] sm:max-h-[600px] xl:max-h-[550px] 2xl:max-h-[680px] shadow-md ring-slate-700 transition-all duration-500 ease-[--transition-bounce] rounded-[3.5rem] xl:rounded-[4rem] relative overflow-hidden">
             <div class="flex flex-col gap-3 items-end">
               <div class="font-semibold text-lg xl:text-xl opacity-70">
-                Fitur Gajelas
+                Website
               </div>
               <div class="font-simplify text-3xl xl:text-5xl">
-                Whats UP!
+                P2P Chat
               </div>
             </div>
             <div class="mt-8 md:mt-10 xl:mt-14 relative flex overflow-visible h-[900px] transition-all duration-[800ms] ease-[--transition-bounce] group-focus-visible:translate-y-5 group-hover:translate-y-5">
@@ -114,10 +113,10 @@ const multiViewerUrl = ref('https://dc.crstlnz.my.id/multi?mockup=1')
           <div class="bg-navy-2 ring-4 ring-white/20 py-10 px-12 md:px-16 md:py-12 max-h-[450px] sm:max-h-[600px] xl:max-h-[550px] 2xl:max-h-[680px] shadow-md ring-slate-700 transition-all duration-500 ease-[--transition-bounce] rounded-[3.5rem] xl:rounded-[4rem] relative overflow-hidden">
             <div class="flex flex-col gap-3 items-end">
               <div class="font-semibold text-lg xl:text-xl opacity-70">
-                Website
+                Tools
               </div>
               <div class="font-simplify text-3xl xl:text-5xl">
-                Kelas XTI 2
+                Multi Viewer
               </div>
             </div>
             <div class="mt-8 md:mt-10 xl:mt-14 xl:mx-8 relative overflow-visible h-[900px] transition-all duration-[800ms] ease-[--transition-bounce] group-focus-visible:translate-y-5 group-hover:translate-y-5">
