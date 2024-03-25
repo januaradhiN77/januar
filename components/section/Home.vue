@@ -166,10 +166,8 @@ onBeforeUnmount(() => {
           </NuxtLink>
           <NuxtLink target="_blank" to="https://github.com/januaradhiN77" class="home-btn rounded-full">
             <HoverUp>
-            <HoverUp :class="{ 'opacity-50': copied }">
               <div class="relative bg-white flex p-1.5 xl:h-12 xl:w-12 h-10 w-10 rounded-full items-center justify-center">
-                <Icon name="ph:link-simple" class="mb-[1px] h-8 w-8 xl:h-10 xl:w-10 -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2 text-slate-700 absolute inset-1" :class="{ invisible: copied }" />
-                <Icon name="simple-icons:instagram" class="mb-[1px] h-8 w-8 xl:h-10 xl:w-10 -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2 text-slate-700 absolute inset-1" :class="{ invisible: !copied }" />
+                <Icon name="simple-icons:instagram" class="text-black absolute h-8 w-8 xl:w-10 xl:h-10 left-1/2 -translate-y-1/2 -translate-x-1/2 top-1/2" />
               </div>
             </HoverUp>
           </NuxtLink>
