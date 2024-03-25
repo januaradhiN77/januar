@@ -147,22 +147,17 @@ onBeforeUnmount(() => {
               </div>
             </div>
             <div class="flex flex-col gap-3">
-              <NuxtLink
-                to="https://github.com/crstlnz"
-                title="GitHub Stats"
-                class="flex flex-col max-md:-mx-5 md:flex-row items-start md:items-center justify-center hover md:hover:bg-black/20 rounded-xl transition-colors duration-300"
-              >
                 <div class="max-md:w-full md:h-36 lg:h-[10.5rem] xl:h-[9rem] 2xl:h-[10.5rem] aspect-[49.45/18] max-w-full">
                   <img
                     class="w-full"
-                    src="https://statsme.vercel.app/api?username=crstlnz&hide=issues&count_private=true&show_icons=true&icon_color=ffb886&title_color=ffb886&hide_border=true&text_color=fcfeff&theme=transparent"
+                    src="https://statsme.vercel.app/api?username=januaradhiN77&hide=issues&count_private=true&show_icons=true&icon_color=ffb886&title_color=ffb886&hide_border=true&text_color=fcfeff&theme=transparent"
                   >
                 </div>
                 <div class="max-md:w-full md:h-36 lg:h-[10.5rem] xl:h-[9rem] 2xl:h-[10.5rem] aspect-[49.45/18] md:aspect-[9.09/5] max-w-full flex">
                   <div class="aspect-[9.09/5] max-h-full h-full">
                     <img
                       class="w-full"
-                      src="https://statsme.vercel.app/api/top-langs/?username=crstlnz&layout=compact&theme=transparent&langs_count=6&exclude_repo=komik_scraper,daiakuma-drive&show_icons=true&icon_color=ffb886&title_color=ffb886&hide_border=true&text_color=fcfeff"
+                      src="https://statsme.vercel.app/api/top-langs/?username=januaradhiN77&layout=compact&theme=transparent&langs_count=6&exclude_repo=komik_scraper,daiakuma-drive&show_icons=true&icon_color=ffb886&title_color=ffb886&hide_border=true&text_color=fcfeff"
                     >
                   </div>
                 </div>
@@ -171,10 +166,10 @@ onBeforeUnmount(() => {
                 <div class="max-md:w-full md:h-[10.7rem] aspect-[511/175.05] max-w-full">
                   <img
                     class="w-full"
-                    src="https://statsme.vercel.app/api/wakatime?username=crstlnz&hide_border=true&theme=transparent&icon_color=ffb886&title_color=ffb886&text_color=fcfeff&range=last_7_day&langs_count=4"
+                    src="https://statsme.vercel.app/api/wakatime?username=januaradhiN77&hide_border=true&theme=transparent&icon_color=ffb886&title_color=ffb886&text_color=fcfeff&range=last_7_day&langs_count=4"
                   >
                 </div>
-              </NuxtLink>
+
             </div>
           </div>
         </div>
