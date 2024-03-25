@@ -23,13 +23,13 @@ const multiViewerUrl = ref('https://dc.crstlnz.my.id/multi?mockup=1')
       <div class="mx-3 md:mx-5 xl:mx-8 flex flex-col gap-10 xl:gap-28 xl:grid xl:grid-cols-5">
         <NuxtLink to="https://devopsapps.netlify.app" class="relative hidden-focus focus-visible:!ring-4 text-center rounded-[4rem] col-span-3 group cursor-pointer hover:-translate-y-3 focus-visible:-translate-y-3 transition-transform duration-500 ease-[--transition-bounce] select-none">
           <NuxtImg
-            src="/img/mockup/Doodle%20-%20Gamepad.png"
+            src="/img/mockup/Doodle%20-%20Floppy%20Disk.png"
             alt="Floppy Doodle"
             sizes="144px"
             class="max-[1800px]:hidden absolute top-[40%] group-hover:-translate-y-4 group-focus-visible:-translate-y-4 z-10 h-36 -left-12 rotate-12 transition-[transform,opacity] opacity-0 group-hover:opacity-100 group-hover:visible group-focus-visible:opacity-100 duration-[500ms]"
           />
           <NuxtImg
-            src="/img/mockup/Doodle%20-%20Gamepad.png"
+            src="/img/mockup/Doodle%20-%20Magnifier.png"
             alt="Magnifier Doodle"
             sizes="144px"
             class="max-[1800px]:hidden absolute -top-6 group-hover:-translate-y-4 group-focus-visible:-translate-y-4 z-10 h-40 left-[380px] rotate-[-18deg] transition-[transform,opacity] opacity-0 group-hover:opacity-100 group-hover:visible group-focus-visible:opacity-100 duration-[500ms]"
