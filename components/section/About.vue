@@ -134,7 +134,7 @@ onBeforeUnmount(() => {
               >
                 <img
                   id="about-img"
-                  src="https://avatars.githubusercontent.com/u/52141479"
+                  src="https://avatars.githubusercontent.com/u/134393144?v=4"
                   alt="Github Profile Picture"
                   class="bg-white/50 w-full aspect-square absolute rounded-xl duration-700 object-cover"
                 >
