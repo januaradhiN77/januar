@@ -91,7 +91,7 @@ const multiViewerUrl = ref('https://dc.crstlnz.my.id/multi?mockup=1')
             </div>
             <div class="mt-8 md:mt-10 xl:mt-14 relative flex overflow-visible h-[900px] transition-all duration-[800ms] ease-[--transition-bounce] group-focus-visible:translate-y-5 group-hover:translate-y-5">
               <div class="absolute top-0 max-xl:left-1/2 left-0 max-xl:-translate-x-1/2 aspect-[9/19.5] 2xl:px-10 min-h-[550px]">
-                <NuxtImg sizes="300px md:500px 2xl:600px" densities="1x" src="/img/mockup/phone_chat.png?updatedAt=1706206208141" class="object-cover" />
+                <img sizes="300px md:500px 2xl:600px" densities="1x" src="https://devopsapps.netlify.app/images/whatsup.jpg" class="object-cover" />
               </div>
             </div>
           </div>
