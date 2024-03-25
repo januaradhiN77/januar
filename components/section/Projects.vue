@@ -48,7 +48,7 @@ const multiViewerUrl = ref('https://dc.crstlnz.my.id/multi?mockup=1')
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink target="_blank" to="https://devopsapps.netlify.app/" target="_blank" class="relative hidden-focus focus-visible:!ring-4 text-center rounded-[4rem] col-span-1 xl:col-span-2 group cursor-pointer hover:-translate-y-3 focus-visible:-translate-y-3 transition-transform duration-500 ease-[--transition-bounce] select-none">
+        <NuxtLink target="_blank" to="https://devopsapps.netlify.app/" class="relative hidden-focus focus-visible:!ring-4 text-center rounded-[4rem] col-span-1 xl:col-span-2 group cursor-pointer hover:-translate-y-3 focus-visible:-translate-y-3 transition-transform duration-500 ease-[--transition-bounce] select-none">
           <NuxtImg
             src="/img/mockup/Doodle%20-%20Gamepad.png"
             alt="Gamepad Doodle"
