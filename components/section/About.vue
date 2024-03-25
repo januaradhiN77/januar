@@ -92,10 +92,7 @@ useEventListener(window, 'scroll', () => {
 const route = useRoute()
 const name = computed(() => {
   if (route.query.n) {
-    return 'Kelvin Geraldi'
-  }
-  else {
-    return 'Crstlnz'
+    return 'Januar Adhi Nugroho'
   }
 })
 
