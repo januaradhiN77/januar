@@ -98,7 +98,7 @@ const multiViewerUrl = ref('https://dc.crstlnz.my.id/multi?mockup=1')
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink to="https://xti2manusa.vercel.app" target="_blank" class="relative hidden-focus focus-visible:!ring-4 text-center rounded-[4rem] col-span-3 group cursor-pointer hover:-translate-y-3 focus-visible:-translate-y-3 transition-transform duration-500 ease-[--transition-bounce] select-none">
+        <NuxtLink to="https://ellatheria.my.id" target="_blank" class="relative hidden-focus focus-visible:!ring-4 text-center rounded-[4rem] col-span-3 group cursor-pointer hover:-translate-y-3 focus-visible:-translate-y-3 transition-transform duration-500 ease-[--transition-bounce] select-none">
           <NuxtImg
             src="/img/mockup/Doodle%20-%20Action.png"
             alt="Clapperboard Doodle"
