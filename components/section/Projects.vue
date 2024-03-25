@@ -17,7 +17,7 @@ const multiViewerUrl = ref('https://dc.crstlnz.my.id/multi?mockup=1')
       <span class="font-simplify">My Projects</span>
     </div>
     <div class="text-slate-400 text-lg md:text-2xl font-semibold mb-6 md:mb-10 text-center">
-      Here are some examples of my work
+      Project iseng saya :)
     </div>
     <div class="space-y-10 xl:space-y-28 items-center justify-center mt-10 w-full xl:px-14">
       <div class="mx-3 md:mx-5 xl:mx-8 flex flex-col gap-10 xl:gap-28 xl:grid xl:grid-cols-5">
@@ -58,10 +58,10 @@ const multiViewerUrl = ref('https://dc.crstlnz.my.id/multi?mockup=1')
           <div class="bg-navy-2 ring-4 ring-white/20 py-10 px-12 md:px-16 md:py-12 max-h-[450px] sm:max-h-[600px] xl:max-h-[550px] 2xl:max-h-[680px] shadow-md ring-slate-700 transition-all duration-500 ease-[--transition-bounce] rounded-[3.5rem] xl:rounded-[4rem] relative overflow-hidden">
             <div class="flex flex-col gap-3 items-end">
               <div class="font-semibold text-lg xl:text-xl opacity-70">
-                Game
+                Aplikasi
               </div>
               <div class="font-simplify text-3xl xl:text-5xl">
-                Sorter
+                Cartoon+
               </div>
             </div>
             <div class="mt-8 md:mt-10 xl:mt-14 relative flex overflow-visible h-[900px] transition-all duration-[800ms] ease-[--transition-bounce] group-focus-visible:translate-y-5 group-hover:translate-y-5">
@@ -83,10 +83,10 @@ const multiViewerUrl = ref('https://dc.crstlnz.my.id/multi?mockup=1')
           <div class="bg-navy-2 ring-4 ring-white/20 py-10 px-12 md:px-16 md:py-12 max-h-[450px] sm:max-h-[600px] xl:max-h-[550px] 2xl:max-h-[680px] shadow-md ring-slate-700 transition-all duration-500 ease-[--transition-bounce] rounded-[3.5rem] xl:rounded-[4rem] relative overflow-hidden">
             <div class="flex flex-col gap-3 items-end">
               <div class="font-semibold text-lg xl:text-xl opacity-70">
-                Website
+                Fitur Gajelas
               </div>
               <div class="font-simplify text-3xl xl:text-5xl">
-                P2P Chat
+                Whats UP!
               </div>
             </div>
             <div class="mt-8 md:mt-10 xl:mt-14 relative flex overflow-visible h-[900px] transition-all duration-[800ms] ease-[--transition-bounce] group-focus-visible:translate-y-5 group-hover:translate-y-5">
@@ -112,10 +112,10 @@ const multiViewerUrl = ref('https://dc.crstlnz.my.id/multi?mockup=1')
           <div class="bg-navy-2 ring-4 ring-white/20 py-10 px-12 md:px-16 md:py-12 max-h-[450px] sm:max-h-[600px] xl:max-h-[550px] 2xl:max-h-[680px] shadow-md ring-slate-700 transition-all duration-500 ease-[--transition-bounce] rounded-[3.5rem] xl:rounded-[4rem] relative overflow-hidden">
             <div class="flex flex-col gap-3 items-end">
               <div class="font-semibold text-lg xl:text-xl opacity-70">
-                Tools
+                Website
               </div>
               <div class="font-simplify text-3xl xl:text-5xl">
-                Multi Viewer
+                Kelas XTI 2
               </div>
             </div>
             <div class="mt-8 md:mt-10 xl:mt-14 xl:mx-8 relative overflow-visible h-[900px] transition-all duration-[800ms] ease-[--transition-bounce] group-focus-visible:translate-y-5 group-hover:translate-y-5">

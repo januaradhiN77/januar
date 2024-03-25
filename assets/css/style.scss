@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer utilities {
+   
+ *{
+   user-select: none;
+ }
   .bg-dot {
     background-image: url("/img/dot.png");
     background-repeat: repeat;
