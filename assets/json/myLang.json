@@ -60,27 +60,15 @@
     "resource": "https://www.w3.org/Style/CSS"
   },
   {
-    "id": "jetpackcompose",
-    "title": "Jetpack Compose",
-    "img": "/img/icons_jetpack_compose.png",
-    "resource": "https://developer.android.com/jetpack/compose?gclid=CjwKCAjwpuajBhBpEiwA_ZtfhR8N3h0cMGGP0vMQbc7JkWI6CQzYxTJjaUUYWRG5cXj2SO_E55WrKxoCGSMQAvD_BwE&gclsrc=aw.ds"
-  },
-  {
-    "id": "eslint",
-    "title": "ESLint",
-    "img": "/img/icons_eslint.png",
-    "resource": "https://eslint.org/"
+    "id": "tailwind",
+    "title": "Tailwind CSS",
+    "img": "/img/icons_tailwind.png",
+    "resource": "https://tailwindcss.com/"
   },
   {
     "id": "sass",
     "title": "Sass",
     "img": "/img/icons_sass.png",
     "resource": "https://sass-lang.com/"
-  },
-  {
-    "id": "hono",
-    "title": "Hono",
-    "img": "/img/icons_hono.png",
-    "resource": "https://hono.dev/"
   }
 ]

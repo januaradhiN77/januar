@@ -148,7 +148,6 @@ onBeforeUnmount(() => {
             </div>
             
             <div class="flex flex-col gap-3">
-
                 <div class="max-md:w-full md:h-36 lg:h-[10.5rem] xl:h-[9rem] 2xl:h-[10.5rem] aspect-[49.45/18] max-w-full">
                   <img
                     class="w-full"
@@ -163,8 +162,6 @@ onBeforeUnmount(() => {
                     >
                   </div>
                 </div>
-
-
                 <div class="max-md:w-full md:h-[10.7rem] aspect-[511/175.05] max-w-full">
                   <img
                     class="w-full"
