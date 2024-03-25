@@ -165,7 +165,7 @@ onBeforeUnmount(() => {
                 <div class="max-md:w-full md:h-[10.7rem] aspect-[511/175.05] max-w-full">
                   <img
                     class="w-full"
-                    src="https://statsme.vercel.app/api/wakatime?username=januaradhiN77&hide_border=true&theme=transparent&icon_color=ffb886&title_color=ffb886&text_color=fcfeff&range=last_7_day&langs_count=4"
+                    src="https://statsme.vercel.app/api/wakatime?username=januarzzz&hide_border=true&theme=transparent&icon_color=ffb886&title_color=ffb886&text_color=fcfeff&range=last_7_day&langs_count=4"
                   >
                 </div>
             </div>
