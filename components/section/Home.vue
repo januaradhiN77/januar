@@ -164,11 +164,9 @@ onBeforeUnmount(() => {
               </div>
             </HoverUp>
           </NuxtLink>
-          <NuxtLink target="_blank" to="https://github.com/januaradhiN77" class="home-btn rounded-full">
-            <HoverUp>
-              <div class="relative bg-white flex p-1.5 xl:h-12 xl:w-12 h-10 w-10 rounded-full items-center justify-center">
-                <Icon name="simple-icons:instagram" class="text-black absolute h-8 w-8 xl:w-10 xl:h-10 left-1/2 -translate-y-1/2 -translate-x-1/2 top-1/2" />
-              </div>
+          <NuxtLink target="_blank" to="https://twitter.com/januaradhin" class="home-btn rounded-full">
+            <HoverUp class="flex h-10 w-10 rounded-full items-center justify-center xl:h-12 xl:w-12">
+              <Icon name="simple-icons:instagram" class="mt-1" />
             </HoverUp>
           </NuxtLink>
         </div>
