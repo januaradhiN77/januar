@@ -21,7 +21,7 @@ const multiViewerUrl = ref('https://dc.crstlnz.my.id/multi?mockup=1')
     </div>
     <div class="space-y-10 xl:space-y-28 items-center justify-center mt-10 w-full xl:px-14">
       <div class="mx-3 md:mx-5 xl:mx-8 flex flex-col gap-10 xl:gap-28 xl:grid xl:grid-cols-5">
-        <NuxtLink to="/jkt48log" class="relative hidden-focus focus-visible:!ring-4 text-center rounded-[4rem] col-span-3 group cursor-pointer hover:-translate-y-3 focus-visible:-translate-y-3 transition-transform duration-500 ease-[--transition-bounce] select-none">
+        <NuxtLink target="_blank" to="https://devopsapps.netlify.app" class="relative hidden-focus focus-visible:!ring-4 text-center rounded-[4rem] col-span-3 group cursor-pointer hover:-translate-y-3 focus-visible:-translate-y-3 transition-transform duration-500 ease-[--transition-bounce] select-none">
           <img
             src="https://devopsapps.netlify.app/images/wots48_ssan.jpg"
             sizes="144px"
@@ -43,12 +43,12 @@ const multiViewerUrl = ref('https://dc.crstlnz.my.id/multi?mockup=1')
             </div>
             <div class="mt-8 md:mt-10 xl:mt-14 xl:mx-16 relative overflow-visible h-[900px] transition-all duration-[800ms] ease-[--transition-bounce] group-focus-visible:translate-y-5 group-hover:translate-y-5">
               <div class="absolute top-0 left-0 w-[600px] md:w-[900px] 2xl:w-[1300px]">
-                <img sizes="300px md:500px 2xl:700px" densities="1x" src="https://devopsapps.netlify.app/images/wots48_ssan.jpg" class="object-cover" />
+                <img sizes="300px md:500px 2xl:700px" densities="1x" src="https://devopsapps.netlify.app/images/wots48.jpg" class="object-cover" />
               </div>
             </div>
           </div>
         </NuxtLink>
-        <NuxtLink :to="gameUrl" target="_blank" class="relative hidden-focus focus-visible:!ring-4 text-center rounded-[4rem] col-span-1 xl:col-span-2 group cursor-pointer hover:-translate-y-3 focus-visible:-translate-y-3 transition-transform duration-500 ease-[--transition-bounce] select-none">
+        <NuxtLink target="_blank" to="https://devopsapps.netlify.app/" target="_blank" class="relative hidden-focus focus-visible:!ring-4 text-center rounded-[4rem] col-span-1 xl:col-span-2 group cursor-pointer hover:-translate-y-3 focus-visible:-translate-y-3 transition-transform duration-500 ease-[--transition-bounce] select-none">
           <NuxtImg
             src="/img/mockup/Doodle%20-%20Gamepad.png"
             alt="Gamepad Doodle"
