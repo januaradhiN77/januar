@@ -1,0 +1,86 @@
+[
+  {
+    "id": "javascript",
+    "title": "Javascript",
+    "img": "/img/icons_javascript.png",
+    "resource": "https://www.ecma-international.org/publications-and-standards/standards/ecma-262/"
+  },
+  {
+    "id": "typescript",
+    "title": "Typescript",
+    "img": "/img/icons_typescript.png",
+    "resource": "https://www.typescriptlang.org/"
+  },
+  {
+    "id": "vue",
+    "title": "Vue",
+    "img": "/img/icons_vue.png",
+    "resource": "https://vuejs.org/"
+  },
+  {
+    "id": "react",
+    "title": "React",
+    "img": "/img/icons_react.png",
+    "resource": "https://react.dev/"
+  },
+  {
+    "id": "nuxt",
+    "title": "Nuxt",
+    "img": "/img/icons_nuxt.png",
+    "resource": "https://nuxt.com/"
+  },
+  {
+    "id": "mongodb",
+    "title": "MongoDB",
+    "img": "/img/icons_mongodb.png",
+    "resource": "https://www.mongodb.com/"
+  },
+  {
+    "id": "flutter",
+    "title": "Flutter",
+    "img": "/img/icons_flutter.png",
+    "resource": "https://flutter.dev/"
+  },
+  {
+    "id": "nodejs",
+    "title": "NodeJS",
+    "img": "/img/icons_node_js.png",
+    "resource": "https://nodejs.org"
+  },
+  {
+    "id": "html5",
+    "title": "HTML5",
+    "img": "/img/icons_html5.png",
+    "resource": "https://html.spec.whatwg.org/multipage/"
+  },
+  {
+    "id": "css3",
+    "title": "CSS3",
+    "img": "/img/icons_css3.png",
+    "resource": "https://www.w3.org/Style/CSS"
+  },
+  {
+    "id": "jetpackcompose",
+    "title": "Jetpack Compose",
+    "img": "/img/icons_jetpack_compose.png",
+    "resource": "https://developer.android.com/jetpack/compose?gclid=CjwKCAjwpuajBhBpEiwA_ZtfhR8N3h0cMGGP0vMQbc7JkWI6CQzYxTJjaUUYWRG5cXj2SO_E55WrKxoCGSMQAvD_BwE&gclsrc=aw.ds"
+  },
+  {
+    "id": "eslint",
+    "title": "ESLint",
+    "img": "/img/icons_eslint.png",
+    "resource": "https://eslint.org/"
+  },
+  {
+    "id": "sass",
+    "title": "Sass",
+    "img": "/img/icons_sass.png",
+    "resource": "https://sass-lang.com/"
+  },
+  {
+    "id": "hono",
+    "title": "Hono",
+    "img": "/img/icons_hono.png",
+    "resource": "https://hono.dev/"
+  }
+]

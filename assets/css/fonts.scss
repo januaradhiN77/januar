@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "ModernAesthetic";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/ModernAesthetic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-display: block;
+}
+
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Simplify";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/Simplify.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-display: block;
+}
+
+.font-simplify {
+    font-family: 'Simplify', sans-serif;
+}
+
+.font-modern {
+    font-family: 'ModernAesthetic', sans-serif;
+}
+
+.font-tilt-warp {
+    font-family: 'Tilt Warp', sans-serif;
+}

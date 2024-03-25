@@ -1,0 +1,238 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bg-dot {
+    background-image: url("/img/dot.png");
+    background-repeat: repeat;
+    background-size: 60px;
+    background-position: 40% 0%;
+    background-attachment: fixed;
+  }
+
+  .bg-cross{
+    position: relative;
+    ::before {
+      content: ' ';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.25;
+      background-image: url("/img/cross.png");
+      background-repeat: repeat;
+      background-size: 70px;
+      background-position: 40% 0%;
+      background-attachment: fixed;
+    }
+  }
+
+  .bg-polygonal {
+    background-image: url("/img/pattern-01.png");
+    background-repeat: repeat;
+    background-size: 250px;
+    background-position: 40% 0%;
+    background-attachment: fixed;
+  }
+
+  .bg-language {
+    background-image: url("/img/language.png");
+    background-repeat: repeat;
+    background-size: 2800px;
+    background-position: 40% 0%;
+    background-position: 600px 580px;
+    background-attachment: fixed;
+  }
+}
+
+:root {
+  --transition-bounce: cubic-bezier(.175,.885,.32,1.275);
+}
+
+#main-app {
+  button, a {
+    &:focus-visible { 
+      outline: none;
+      @apply ring-slate-200 ring-2
+    } 
+  }
+}
+
+#chat-container {
+  a {
+    @apply text-blue-400
+  }
+
+  .chat-out {
+    a {
+      @apply text-blue-600
+    }
+  }
+}
+
+.hidden-focus {
+  &:focus-within {
+    outline: none;
+    @apply ring-0
+  }
+}
+
+.lazyLoad {
+  opacity: 0;
+  transition-duration: 0.35s;
+  transition-property: opacity;
+  &::after {
+    content: 'some text';
+    display: block;
+  }
+  &.isLoaded{
+    opacity: 1;
+    transition-duration: initial;
+    transition-property: initial;
+  }
+}
+
+body {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.hidden-scrollbar {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+  
+  &::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+}
+
+* {
+  font-family: 'DM Sans', sans-serif;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  @apply bg-navy-1 text-white;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-font-smoothing: subpixel-antialiased;
+  // color: var(--md-sys-color-on-background);
+  // background-color: var(--md-sys-color-background);
+  /* // @apply text-slate-600 bg-slate-200 dark:text-slate-400 dark:bg-slate-900; */
+}
+
+img.lazyload {
+  opacity: 0 !important;
+  transition: 0.3s ease;
+  &.isLoaded {
+    opacity: 1 !important;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: 0 solid;
+  text-decoration: none;
+  ::-moz-selection { /* Code for Firefox */
+    @apply text-white bg-blue-500;
+  }
+  
+  ::selection {
+    @apply text-white bg-blue-500;
+  }
+}
+
+html,
+body,
+#__nuxt,
+#__layout {
+  min-height: 100%;
+  width: 100%;
+}
+
+:focus-visible {
+  @apply outline-dashed outline-2 outline-offset-8 outline-inherit;
+}
+
+body {
+  overflow-anchor: none;
+}
+
+.chat-scrollbar {
+  scrollbar-gutter: stable;
+  
+  &::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  &::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    @apply bg-white/10
+  }
+  
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    @apply bg-white/30
+  }
+}
+
+#chat-room {
+  a {
+    word-break: break-all;
+  }
+}
+
+.projects {
+  .card {
+    &.open {
+      .card-inner {
+          transform: rotateY(180deg);
+      }
+    }
+    perspective: 2400px;
+    .card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 1s;
+      transform-style: preserve-3d;
+      .card-front {
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      .card-back {
+        position: absolute;
+        inset: 0;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: rotateY(180deg);
+      }
+    }
+  }
+}

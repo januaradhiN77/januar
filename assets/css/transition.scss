@@ -1,0 +1,243 @@
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.3s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: all 0.3s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0 !important;
+}
+
+.layout-enter-active,
+.layout-leave-active {
+    transition: all 0.4s;
+}
+.layout-enter-from,
+.layout-leave-to {
+    opacity: 0;
+}
+
+.notif-enter-active,
+.notif-leave-active {
+    transition: all 0.5s ease;
+}
+.notif-enter-from,
+.notif-leave-to {
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+/// list transition
+.list-move ,/* apply transition to moving elements */
+.list-enter-active,
+.list-leave-active {
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
+}
+
+.list-enter-active,
+.list-leave-active {
+    z-index: 0;
+}
+
+.list-enter-from {
+    opacity: 0;
+    transform: translateY(35%);
+}
+
+.list-leave-to {
+    opacity: 0;
+    // transition-timing-function: cubic-bezier(0.14, -0.11, 0.94, -0.555);
+    transform: translateY(35%);
+}
+
+/* ensure leaving items are taken out of layout flow so that moving
+   animations can be calculated correctly. */
+.list-leave-active {
+    position: fixed;
+}
+
+
+.slide-enter-active {
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -moz-transition-timing-function: ease-in;
+    -webkit-transition-timing-function: ease-in;
+    -o-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+ }
+ 
+ .slide-leave-active {
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -moz-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    -o-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+ }
+ 
+ .slide-enter-to, .slide-leave {
+    max-height: 100px;
+    overflow: hidden;
+ }
+ 
+ .slide-enter, .slide-leave-to {
+    overflow: hidden;
+    max-height: 0;
+ }
+
+.popup-enter-active,
+.popup-leave-active {
+    transition: all 0.75s ease;
+    transition-timing-function: cubic-bezier(.24,1.95,.45,.79); 
+}
+.popup-enter-from,
+.popup-leave-to {
+    transform: translateY(25px);
+    scale: 0.85;
+    opacity: 0 !important;
+}
+
+
+
+/// list transition
+.connecteduser-move ,/* apply transition to moving elements */
+.connecteduser-enter-active,
+.connecteduser-leave-active {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.connecteduser-enter-active,
+.connecteduser-leave-active {
+    z-index: 0;
+}
+
+.connecteduser-enter-from {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.connecteduser-leave-to {
+    opacity: 0;
+    transition-duration: 0.5s;
+    // transition-timing-function: cubic-bezier(0.14, -0.11, 0.94, -0.555);
+    transform: translateX(-100%);
+}
+
+/* ensure leaving items are taken out of layout flow so that moving
+   animations can be calculated correctly. */
+.connecteduser-leave-active {
+    position: absolute;
+}
+
+/// END CHA
+/// list transition
+.chatlist-move ,/* apply transition to moving elements */
+.chatlist-enter-active,
+.chatlist-leave-active {
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+
+.chatlist-enter-active,
+.chatlist-leave-active {
+    z-index: 0;
+}
+
+.chatlist-enter-from {
+    opacity: 0;
+    // transform: translateX(100%);
+}
+
+.chatlist-leave-to {
+    opacity: 0;
+    transition-duration: 0.5s;
+    // transition-timing-function: cubic-bezier(0.14, -0.11, 0.94, -0.555);
+    // transform: translateX(100%);
+}
+
+/* ensure leaving items are taken out of layout flow so that moving
+   animations can be calculated correctly. */
+.chatlist-leave-active {
+    position: absolute;
+}
+
+/// list transition
+.section-nav-move ,/* apply transition to moving elements */
+.section-nav-enter-active,
+.section-nav-leave-active {
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.section-nav-enter-active,
+.section-nav-leave-active {
+    z-index: 0;
+}
+
+.section-nav-enter-from {
+    opacity: 0;
+    transform: translateX(35%);
+}
+
+.section-nav-leave-to {
+    opacity: 0;
+    // transition-timing-function: cubic-bezier(0.14, -0.11, 0.94, -0.555);
+    transform: translateX(35%);
+}
+
+/* ensure leaving items are taken out of layout flow so that moving
+   animations can be calculated correctly. */
+.section-nav-leave-active {
+    position: fixed;
+}
+
+.dialog-enter-active,
+.dialog-leave-active {
+    transition: 0.5s;
+   .dialog-bg {
+        transition: all 0.3s ease;
+   }
+
+   .dialog {
+        transition: all 0.5s var(--transition-bounce);
+    }
+}
+.dialog-enter-from,
+.dialog-leave-to {
+    .dialog-bg {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .dialog {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+}
+
+.scalein-enter-active,
+.scalein-leave-active {
+  transition: all 0.3s;
+}
+.scalein-enter-from,
+.scalein-leave-to {
+  opacity: 0;
+  scale : 0.93;  
+}
