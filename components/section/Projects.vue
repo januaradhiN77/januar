@@ -117,7 +117,7 @@ const multiViewerUrl = ref('https://dc.crstlnz.my.id/multi?mockup=1')
                 Website
               </div>
               <div class="font-simplify text-3xl xl:text-5xl">
-                Kelas XTI 2
+                Ellatheria - Fanbase Ella JKT48
               </div>
             </div>
             <div class="mt-8 md:mt-10 xl:mt-14 relative flex overflow-visible h-[900px] transition-all duration-[800ms] ease-[--transition-bounce] group-focus-visible:translate-y-5 group-hover:translate-y-5">
