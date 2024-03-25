@@ -60,9 +60,9 @@
     "resource": "https://www.w3.org/Style/CSS"
   },
   {
-    "id": "tailwind",
-    "title": "Tailwind CSS",
-    "img": "/img/icons_tailwindcss.png",
+    "id": "eslint",
+    "title": "ESLint",
+    "img": "/img/icons_eslint.png",
     "resource": "https://tailwindcss.com/"
   },
   {
