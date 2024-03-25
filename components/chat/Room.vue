@@ -13,7 +13,7 @@ const avatar = computed(() => {
   return multiavatar(avatarId.value)
 })
 
-const title = 'P2P Chat'
+const title = 'Whats UP!'
 const openMenu = ref(false)
 const route = useRoute()
 
@@ -37,7 +37,7 @@ onMounted(() => {
   })
 })
 
-const roomName = ref('The Lounge')
+const roomName = ref('Whats UP!')
 const { copy, isSupported } = useClipboard({ legacy: true })
 
 const { addNotif } = useNotifications()
@@ -54,7 +54,7 @@ function copyLink() {
     }
     if (!notifCooldown.value) {
       addNotif({
-        message: 'Share this link to join this room!',
+        message: 'Bagikan tautan ini untuk bergabung ke ruangan ini!',
         type: 'success',
         duration: 2000,
       })
@@ -134,11 +134,11 @@ const infoOpen = ref(false)
                     as="h3"
                     class="text-lg font-medium leading-6 text-gray-900"
                   >
-                    Peer to Peer Chat
+                    Whats UP!
                   </HeadlessDialogTitle>
                   <div class="mt-2">
                     <p class="text-sm text-gray-500">
-                      Peer-to-peer (P2P) chat is a direct communication model where users exchange messages directly between their devices without relying on a central server, facilitating real-time and decentralized conversations.
+                      Whats UP! adalah project saya untuk berkomunikasi langsung di mana pengguna bertukar pesan secara langsung antar perangkat mereka tanpa bergantung pada server pusat, memfasilitasi percakapan waktu nyata dan terdesentralisasi.
                     </p>
                   </div>
 
@@ -148,7 +148,7 @@ const infoOpen = ref(false)
                       class="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
                       @click="infoOpen = false"
                     >
-                      Got it, thanks!
+                      Mengerti
                     </button>
                   </div>
                 </HeadlessDialogPanel>
@@ -220,7 +220,7 @@ const infoOpen = ref(false)
           >
             <div v-if="roomId" class="flex gap-3 items-center">
               <div class="text-xl text-center">
-                Share your room
+                Bagikan room kamu
               </div>
               <div class="relative bg-white flex p-1.5 h-7 w-7 rounded-full items-center justify-center">
                 <Icon name="ph:link-simple" class="mb-[1px] h-5 w-5 -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2 text-slate-700 absolute inset-1" :class="{ invisible: copied }" />
