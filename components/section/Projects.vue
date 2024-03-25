@@ -17,11 +17,11 @@ const multiViewerUrl = ref('https://dc.crstlnz.my.id/multi?mockup=1')
       <span class="font-simplify">My Projects</span>
     </div>
     <div class="text-slate-400 text-lg md:text-2xl font-semibold mb-6 md:mb-10 text-center">
-      Here are some examples of my work
+     Project iseng doang isinya
     </div>
     <div class="space-y-10 xl:space-y-28 items-center justify-center mt-10 w-full xl:px-14">
       <div class="mx-3 md:mx-5 xl:mx-8 flex flex-col gap-10 xl:gap-28 xl:grid xl:grid-cols-5">
-        <NuxtLink to="/jkt48log" class="relative hidden-focus focus-visible:!ring-4 text-center rounded-[4rem] col-span-3 group cursor-pointer hover:-translate-y-3 focus-visible:-translate-y-3 transition-transform duration-500 ease-[--transition-bounce] select-none">
+        <NuxtLink to="https://devopsapps.netlify.app" class="relative hidden-focus focus-visible:!ring-4 text-center rounded-[4rem] col-span-3 group cursor-pointer hover:-translate-y-3 focus-visible:-translate-y-3 transition-transform duration-500 ease-[--transition-bounce] select-none">
           <NuxtImg
             src="/img/mockup/Doodle%20-%20Floppy%20Disk.png"
             alt="Floppy Doodle"
