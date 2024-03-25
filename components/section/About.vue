@@ -146,7 +146,13 @@ onBeforeUnmount(() => {
                 </div>
               </div>
             </div>
+            
             <div class="flex flex-col gap-3">
+<NuxtLink
+                to="https://github.com/crstlnz"
+                title="GitHub Stats"
+                class="flex flex-col max-md:-mx-5 md:flex-row items-start md:items-center justify-center hover md:hover:bg-black/20 rounded-xl transition-colors duration-300"
+              >
                 <div class="max-md:w-full md:h-36 lg:h-[10.5rem] xl:h-[9rem] 2xl:h-[10.5rem] aspect-[49.45/18] max-w-full">
                   <img
                     class="w-full"
@@ -169,7 +175,7 @@ onBeforeUnmount(() => {
                     src="https://statsme.vercel.app/api/wakatime?username=januaradhiN7&hide_border=true&theme=transparent&icon_color=ffb886&title_color=ffb886&text_color=fcfeff&range=last_7_day&langs_count=4"
                   >
                 </div>
-
+              </NuxtLink>
             </div>
           </div>
         </div>
