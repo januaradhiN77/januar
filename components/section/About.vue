@@ -205,7 +205,7 @@ onBeforeUnmount(() => {
             <div
               class="relative flex-1 text-slate-300 group-hover:text-slate-100 cursor-pointer container mx-auto text-lg p-4 indent-8 text-justify leading-8 md:p-8 rounded-2xl bg-navy-1 ring-1 group-hover:ring-2 group-hover:ring-white/50 ring-white/10 group-hover:-translate-y-1 transition-[transform,box-shadow,color] ease-[--transition-bounce] duration-700"
             >
-             Nama saya Januar Adhi Nugroho, seorang siswa yang menekuni bidang Teknik Komputer Jaringan dengan fokus pada pengembangan front-end web. Saya memiliki tekad yang kuat untuk terus belajar dan mengasah keterampilan saya demi mencapai kesempurnaan. Selalu berusaha untuk menemukan solusi terbaik dalam setiap proyek yang saya kerjakan dan memiliki minat besar di bidang front-end web. berikut tech stack yang sudah saya kuasai
+             saya adalah seorang siswa yang menekuni bidang Teknik Komputer Jaringan dengan fokus pada pengembangan front-end web. Saya memiliki tekad yang kuat untuk terus belajar dan mengasah keterampilan saya demi mencapai kesempurnaan. Selalu berusaha untuk menemukan solusi terbaik dalam setiap proyek yang saya kerjakan dan memiliki minat besar di bidang front-end web. berikut tech stack yang sudah saya kuasai
             </div>
           </div>
 
