@@ -152,12 +152,12 @@ onBeforeUnmount(() => {
         </div>
         <div id="home-line" class="h-4 w-full max-w-[90vw] bg-secondary mt-2 opacity-0" />
         <div class="mt-4 xl:mt-6 flex justify-end gap-8">
-          <NuxtLink target="_blank" to="https://twitter.com/crstlnz" class="home-btn rounded-full">
+          <NuxtLink target="_blank" to="https://twitter.com/januaradhin" class="home-btn rounded-full">
             <HoverUp class="flex h-10 w-10 rounded-full items-center justify-center xl:h-12 xl:w-12">
               <Icon name="logos:twitter" class="mt-1" />
             </HoverUp>
           </NuxtLink>
-          <NuxtLink target="_blank" to="https://github.com/crstlnz" class="home-btn rounded-full">
+          <NuxtLink target="_blank" to="https://github.com/januaradhiN77" class="home-btn rounded-full">
             <HoverUp>
               <div class="bg-white relative rounded-full flex xl:h-12 xl:w-12 h-10 w-10 items-center justify-center">
                 <Icon name="simple-icons:github" class="text-black absolute h-8 w-8 xl:w-10 xl:h-10 left-1/2 -translate-y-1/2 -translate-x-1/2 top-1/2" />
