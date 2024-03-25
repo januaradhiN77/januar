@@ -207,33 +207,6 @@ onBeforeUnmount(() => {
             >
              Nama saya Januar Adhi Nugroho, seorang siswa yang menekuni bidang Teknik Komputer Jaringan dengan fokus pada pengembangan front-end web. Saya memiliki tekad yang kuat untuk terus belajar dan mengasah keterampilan saya demi mencapai kesempurnaan. Selalu berusaha untuk menemukan solusi terbaik dalam setiap proyek yang saya kerjakan dan memiliki minat besar di bidang front-end web. berikut tech stack yang sudah saya kuasai
             </div>
-            
-              <div class="relative w-[3rem] h-[3rem] card">
-                <div class="card-inner">
-                  <img
-                    :src="
-                      $imagekitIcon(
-                        'https://ik.imagekit.io/crstlnz/img/icons_javascript.png?updatedAt=1706206130202',
-                      )
-                    "
-                    alt=""
-                    class="absolute inset-0 card-front"
-                  >
-                  <img
-                    :src="
-                      $imagekitIcon(
-                        'https://ik.imagekit.io/crstlnz/img/icons_typescript.png?updatedAt=1706206130201',
-                      )
-                    "
-                    alt=""
-                    class="absolute inset-0 card-back"
-                  >
-                </div>
-              </div>
-              <span
-                class="text-slate-300 group-hover:text-slate-100 transition-colors duration-700"
-              >About Me</span>
-            </div>
           </div>
 
           <div
