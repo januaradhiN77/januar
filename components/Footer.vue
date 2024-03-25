@@ -7,7 +7,7 @@
       :external="true"
       class="rounded-md transition-colors duration-300 w-8 h-8 hover:bg-black/5 hover:dark:bg-white/5 flex items-center"
     >
-      <Icon name="ri:tiktok-fill" class="w-full h-full p-1" />
+      <Icon name="ri:instagram-fill" class="w-full h-full p-1" />
     </NuxtLink>
     <NuxtLink
       to="https://twitter.com/januaradhin"
