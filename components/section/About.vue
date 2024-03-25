@@ -200,19 +200,40 @@ onBeforeUnmount(() => {
               </div>
               <span
                 class="text-slate-300 group-hover:text-slate-100 transition-colors duration-700"
-              >My Tech Stacks</span>
+              >About Me</span>
             </div>
             <div
               class="relative flex-1 text-slate-300 group-hover:text-slate-100 cursor-pointer container mx-auto text-lg p-4 indent-8 text-justify leading-8 md:p-8 rounded-2xl bg-navy-1 ring-1 group-hover:ring-2 group-hover:ring-white/50 ring-white/10 group-hover:-translate-y-1 transition-[transform,box-shadow,color] ease-[--transition-bounce] duration-700"
             >
-              With 4 years of experience for web development, I have very good
-              skills for full-stack projects using JavaScript or TypeScript with
-              Vue and Nuxt framework. I often use Vue, but I also explored React
-              JS to gain flexibility in adapting to various project needs. I'm
-              also actively expanding my skillset, having explored mobile
-              development with Flutter and Jetpack Compose for Android.
+             Nama saya Januar Adhi Nugroho, seorang siswa yang menekuni bidang Teknik Komputer Jaringan dengan fokus pada pengembangan front-end web. Saya memiliki tekad yang kuat untuk terus belajar dan mengasah keterampilan saya demi mencapai kesempurnaan. Selalu berusaha untuk menemukan solusi terbaik dalam setiap proyek yang saya kerjakan dan memiliki minat besar di bidang front-end web. berikut tech stack yang sudah saya kuasai
             </div>
           </div>
+                        <div class="relative w-[3rem] h-[3rem] card">
+                <div class="card-inner">
+                  <img
+                    :src="
+                      $imagekitIcon(
+                        'https://ik.imagekit.io/crstlnz/img/icons_javascript.png?updatedAt=1706206130202',
+                      )
+                    "
+                    alt=""
+                    class="absolute inset-0 card-front"
+                  >
+                  <img
+                    :src="
+                      $imagekitIcon(
+                        'https://ik.imagekit.io/crstlnz/img/icons_typescript.png?updatedAt=1706206130201',
+                      )
+                    "
+                    alt=""
+                    class="absolute inset-0 card-back"
+                  >
+                </div>
+              </div>
+              <span
+                class="text-slate-300 group-hover:text-slate-100 transition-colors duration-700"
+              >Tech Stack</span>
+            </div>
           <div
             class="lang-container container mx-auto mt-8 flex flex-wrap gap-3"
           >
