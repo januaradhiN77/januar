@@ -22,13 +22,15 @@ const multiViewerUrl = ref('https://dc.crstlnz.my.id/multi?mockup=1')
     <div class="space-y-10 xl:space-y-28 items-center justify-center mt-10 w-full xl:px-14">
       <div class="mx-3 md:mx-5 xl:mx-8 flex flex-col gap-10 xl:gap-28 xl:grid xl:grid-cols-5">
         <NuxtLink target="_blank" to="https://devopsapps.netlify.app" class="relative hidden-focus focus-visible:!ring-4 text-center rounded-[4rem] col-span-3 group cursor-pointer hover:-translate-y-3 focus-visible:-translate-y-3 transition-transform duration-500 ease-[--transition-bounce] select-none">
-          <img
-            src="https://devopsapps.netlify.app/images/wots48_ssan.jpg"
+<NuxtImg
+            src="/img/mockup/Doodle%20-%20Floppy%20Disk.png"
+            alt="Floppy Doodle"
             sizes="144px"
             class="max-[1800px]:hidden absolute top-[40%] group-hover:-translate-y-4 group-focus-visible:-translate-y-4 z-10 h-36 -left-12 rotate-12 transition-[transform,opacity] opacity-0 group-hover:opacity-100 group-hover:visible group-focus-visible:opacity-100 duration-[500ms]"
           />
-          <img
-            src="https://devopsapps.netlify.app/images/wots48_ssan.jpg"
+          <NuxtImg
+            src="/img/mockup/Doodle%20-%20Magnifier.png"
+            alt="Magnifier Doodle"
             sizes="144px"
             class="max-[1800px]:hidden absolute -top-6 group-hover:-translate-y-4 group-focus-visible:-translate-y-4 z-10 h-40 left-[380px] rotate-[-18deg] transition-[transform,opacity] opacity-0 group-hover:opacity-100 group-hover:visible group-focus-visible:opacity-100 duration-[500ms]"
           />
@@ -43,7 +45,7 @@ const multiViewerUrl = ref('https://dc.crstlnz.my.id/multi?mockup=1')
             </div>
             <div class="mt-8 md:mt-10 xl:mt-14 xl:mx-16 relative overflow-visible h-[900px] transition-all duration-[800ms] ease-[--transition-bounce] group-focus-visible:translate-y-5 group-hover:translate-y-5">
               <div class="absolute top-0 left-0 w-[600px] md:w-[900px] 2xl:w-[1300px]">
-                <img sizes="300px md:500px 2xl:700px" densities="1x" src="https://devopsapps.netlify.app/images/wots48.jpg" class="object-cover" />
+                <img sizes="300px md:500px 2xl:700px" densities="1x" src="https://devopsapps.netlify.app/images/wots48_ssan.jpg" class="object-cover" />
               </div>
             </div>
           </div>
