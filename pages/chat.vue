@@ -63,7 +63,7 @@ function join() {
 }
 
 useHead({
-  title: 'Chat Room',
+  title: 'Whats UP!',
 })
 </script>
 
@@ -80,10 +80,10 @@ useHead({
           </div>
           <div class="flex gap-3 items-center">
             <Icon name="ph:chat-teardrop-dots-fill" size="3rem" />
-            <span class="text-5xl font-simplify">Chat Room</span>
+            <span class="text-5xl font-simplify">Whats UP!</span>
           </div>
           <div>
-            <input v-model="nameInput" type="text" placeholder="Enter Name" :class="{ 'outline outline-4 outline-offset-4 outline-red-500': nameError }" class="bg-white/10 py-2 focus:!outline focus:!outline-white/10 focus:!outline-4 !outline-offset-4 px-5 text-center rounded-full " @keyup.enter="join">
+            <input v-model="nameInput" type="text" placeholder="Nama Kamu" :class="{ 'outline outline-4 outline-offset-4 outline-red-500': nameError }" class="bg-white/10 py-2 focus:!outline focus:!outline-white/10 focus:!outline-4 !outline-offset-4 px-5 text-center rounded-full " @keyup.enter="join">
           </div>
           <button type="button" class="bg-navy-3 rounded-full px-5 py-1.5 text-sm" @click="join">
             Join

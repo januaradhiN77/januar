@@ -193,7 +193,7 @@ const infoOpen = ref(false)
           type="button"
           aria-label="Copy Link"
           target="_blank"
-          to="https://github.com/crstlnz"
+          to="https://github.com/januaradhiN77"
           class="rounded-full"
           @click="copyLink"
         >
