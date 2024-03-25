@@ -1,8 +1,8 @@
 <template>
   <div class="inline-flex gap-2">
     <NuxtLink
-      to=""
-      aria-label="Tiktok"
+      to="https://www.instagram.com/januaradhin?igsh=aWg0Y3lxMWNsbnFz"
+      aria-label="Instagram"
       target="_blank"
       :external="true"
       class="rounded-md transition-colors duration-300 w-8 h-8 hover:bg-black/5 hover:dark:bg-white/5 flex items-center"
