@@ -94,6 +94,9 @@ const name = computed(() => {
   if (route.query.n) {
     return 'Januar Adhi Nugroho'
   }
+  else{
+    return 'Januar Adhi Nugroho'
+  }
 })
 
 onBeforeUnmount(() => {
