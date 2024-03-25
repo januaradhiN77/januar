@@ -207,8 +207,8 @@ onBeforeUnmount(() => {
             >
              Nama saya Januar Adhi Nugroho, seorang siswa yang menekuni bidang Teknik Komputer Jaringan dengan fokus pada pengembangan front-end web. Saya memiliki tekad yang kuat untuk terus belajar dan mengasah keterampilan saya demi mencapai kesempurnaan. Selalu berusaha untuk menemukan solusi terbaik dalam setiap proyek yang saya kerjakan dan memiliki minat besar di bidang front-end web. berikut tech stack yang sudah saya kuasai
             </div>
-          </div>
-                        <div class="relative w-[3rem] h-[3rem] card">
+            
+              <div class="relative w-[3rem] h-[3rem] card">
                 <div class="card-inner">
                   <img
                     :src="
@@ -232,8 +232,10 @@ onBeforeUnmount(() => {
               </div>
               <span
                 class="text-slate-300 group-hover:text-slate-100 transition-colors duration-700"
-              >Tech Stack</span>
+              >About Me</span>
             </div>
+          </div>
+
           <div
             class="lang-container container mx-auto mt-8 flex flex-wrap gap-3"
           >
