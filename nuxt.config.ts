@@ -23,7 +23,7 @@ export default defineNuxtConfig({
   image: {
     provider: 'imagekit',
     imagekit: {
-      baseURL: 'https://ik.imagekit.io/crstlnz',
+      baseURL: 'https://ik.imagekit.io/xpmgq70ra',
     },
     quality: 100,
     placeholder: 10,
