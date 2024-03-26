@@ -36,10 +36,10 @@
     "resource": "https://www.mongodb.com/"
   },
   {
-    "id": "flutter",
-    "title": "Flutter",
-    "img": "/img/icons_flutter.png",
-    "resource": "https://flutter.dev/"
+    "id": "java",
+    "title": "Java",
+    "img": "/img/icons_java.png",
+    "resource": "https://www.java.com/en/"
   },
   {
     "id": "nodejs",
